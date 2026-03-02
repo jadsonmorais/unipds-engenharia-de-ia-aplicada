@@ -1,0 +1,12 @@
+{
+  "name": "Node.js 22 Lab",
+  "image": "node:22-alpine",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint" 
+      ]
+    }
+  },
+  "remoteUser": "node"
+}
