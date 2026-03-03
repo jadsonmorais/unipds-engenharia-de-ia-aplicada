@@ -59,7 +59,7 @@ function makeContext(products, users) {
             const avg = ageCounts[product.name] ?
                 ageSums[product.name] / ageCounts[product.name] :
                 midAge
-            debugger
+            
 
             return [product.name, normalize(avg, minAge, maxAge)]
         })
